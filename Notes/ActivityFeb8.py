@@ -14,9 +14,23 @@ print(number_A + number_B)
 
 # 2. Create a block of code that uses the and operator and then print out the result.
 # A :
-bankAccount = 100.00
 
-deposit = float(input('how much would you likee to deposit?'))
-                
-print('your bank total')
-print(bankAccount + deposit)
+isMember = True
+goldTier = True
+
+print(isMember and goldTier)
+
+
+# 3. Create a block or code that uses the NOT EQUAL operator and then use then print out the result.
+# A : 
+fruit_A = 'apples'
+fruit_B = 'oranges'
+
+print(fruit_A == fruit_B)
+
+age = 20 
+age!= 18: print(you are not 18 years old)
+
+# 1 = (equal sign) = assignment
+# 2 == (double equal sign) = comparing if values are the same
+# 3 != (explanation + equal sign) = comparing if values are NOT the same.
