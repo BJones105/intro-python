@@ -74,9 +74,32 @@ bookBagItemPrice = [1.00, 2.00, 3.00, .50]
 'snake_case - every word is seperated with an underscore'
 
 # 13. Provide a coding scenario where you would use a comparison
+applicationNumber = 0.001
+universityDB_apps = 0
 
+print('did this person apply?')
+print(applicationNumber == universityDB_apps)
 
-var1 = 1
-var2 = 2
-var3 = "3"
+# 14. Provide a coding scenario where you would use a logical operator in a program?
+'AND - both statements are true'
+'OR - one of the statemnets are true'
+'NOT - flip the boolean value of the students'
+
+studentId = 1929
+student_DB = [1929, 182912, 1293, 19392]
+def check_studentID():
+    student_DB = ["1929","182912","1293","19392"]
+    id = input('what is your student Id?')
+    if (not (id == student_DB[0]))
+        print('access granted. you may enter the school')
+    else:
+        print('access denied.')
+
+# 15. Create a block of code where you would use a comparison operator with the following data:
+currentScore = 100
+highScore = 2300
+print (currentSCore == highScore)
+
+# Bonus : What does the type() function do?
+# It returns the type of the objects/data elements stored in any data type or returns a new type object depending on the arguments passed to the function.
 
