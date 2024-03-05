@@ -32,7 +32,7 @@ True
 # 6. Write a function in Python that when called will print out your name.
 
 def whatsyourname():
-    name =input('Brandon: ')
+    name = input('Brandon: ')
     print(name)
     age = input('18')
     print(age)
