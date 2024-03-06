@@ -69,9 +69,16 @@ elevatorFloor()
 # if the user enters information incorrectly, give them an error message
 # and tell them that they entered their information incorrectly. 
 
+
 def amusementparkRide1():
-    height = input('The minimum is 5.2 or taller for ages 14 years old and older for ride 1, How tall are you')
-    if height == 5.2 = print('You can get on, enjoy your ride')
-    else height == print('You can get on ride 2')
+    height = input('The minimum is 5.2 or taller for ages 14 years old and older for ride 1, How tall are you?')
+    if height >= 5.2 and age >= 14:
+        print('You can get on, enjoy your ride')
+    elif age >= 14:
+        print('You can get on ride 2!')
+    elif height >= 5.2:
+        print('you can get on ride 3!')
+    else:
+         print('EROOR! try again to see where you qualify for a ride')
 
 amusementparkRide1()
