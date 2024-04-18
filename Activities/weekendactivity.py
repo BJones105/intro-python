@@ -20,3 +20,9 @@ for x in birdGame:
 
 # create a for loop that will pull and count the number of times a specific word appears
 # in this story. 
+
+def alphabetListLoop():
+    alphabet = [e,j,o,t,y]
+    for x in alphabet:
+     print(x)
+
